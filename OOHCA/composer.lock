@@ -4,8 +4,8 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#composer-lock-the-lock-file",
         "This file is @generated automatically"
     ],
-    "hash": "280ce7d84c4d0482366ad9cbb7534a9f",
-    "content-hash": "8ff4b464cc5fcf2fbd4731d1f8d4cd00",
+    "hash": "ddda7576b630e0866fc04a26ee4563ee",
+    "content-hash": "636d711b65fb7a27f1957534fb255e58",
     "packages": [
         {
             "name": "aura/installer-default",
@@ -485,6 +485,54 @@
                 "psr-3"
             ],
             "time": "2012-12-21 11:40:51"
+        },
+        {
+            "name": "queencitycodefactory/ldap",
+            "version": "3.2.5",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/QueenCityCodeFactory/LDAP.git",
+                "reference": "c37f4e3f27f4689e8d562a64705da09abd832a55"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/QueenCityCodeFactory/LDAP/zipball/c37f4e3f27f4689e8d562a64705da09abd832a55",
+                "reference": "c37f4e3f27f4689e8d562a64705da09abd832a55",
+                "shasum": ""
+            },
+            "require": {
+                "cakephp/cakephp": ">=3.2.0",
+                "php": ">=5.5.9"
+            },
+            "require-dev": {
+                "cakephp/cakephp-codesniffer": "dev-master",
+                "phpunit/phpunit": "*"
+            },
+            "type": "cakephp-plugin",
+            "autoload": {
+                "psr-4": {
+                    "Ldap\\": "src"
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "MIT"
+            ],
+            "authors": [
+                {
+                    "name": "darensipes",
+                    "homepage": "https://github.com/darensipes",
+                    "role": "Author"
+                }
+            ],
+            "description": "LDAP plugin for CakePHP 3.x",
+            "homepage": "http://github.com/QueenCityCodeFactory/LDAP",
+            "keywords": [
+                "authenticate",
+                "cakephp",
+                "ldap"
+            ],
+            "time": "2016-10-04 14:26:54"
         },
         {
             "name": "robmorgan/phinx",
